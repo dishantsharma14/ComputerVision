@@ -31,7 +31,7 @@ Create training datasets for 6 land cover classes: <br/>
 <img src="https://i.imgur.com/SZmHIAI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Data preprocessing and training RF Model:  <br/>
+Data preprocessing and training Random Forest ML Model:  <br/>
 <img src="https://i.imgur.com/iOuz6aN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <img src="https://i.imgur.com/nuVtbVd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
