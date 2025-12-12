@@ -23,11 +23,11 @@ Subset satellite image to AOI: <br/>
 <img src="https://i.imgur.com/gkdijQE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Create >9000 objects using FLS segmentation :  <br/>
+Create >9000 objects using FLS segmentation:  <br/>
 <img src="https://i.imgur.com/dNGI08J.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Create training datsets for 6 land cover classes: <br/>
+Create training datasets for 6 land cover classes: <br/>
 <img src="https://i.imgur.com/SZmHIAI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
