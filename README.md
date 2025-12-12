@@ -16,7 +16,7 @@ Mines, wineries and growing population in Chile put pressure on already scarce w
 
 <p align="center">
 Workflow:  <br/>
-<img src="https://i.imgur.com/mOIaBQl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mOIaBQl.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Subset satellite image to AOI: <br/>
