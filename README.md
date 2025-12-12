@@ -1,4 +1,4 @@
-<h1>Computer Vison for Environmental Change Detection Project</h1>
+<h1>Computer Vision for Environmental Change Detection Project</h1>
 
 
 <h2>Description</h2>
@@ -15,60 +15,47 @@ Mines, wineries and growing population in Chile put pressure on already scarce w
 <h2>Project walk-through:</h2>
 
 <p align="center">
-Annonated Study Area Map created in ArcGIS Pro :  <br/>
-<img src="https://i.imgur.com/gTFDG4Q.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Workflow:  <br/>
+<img src="https://i.imgur.com/mOIaBQl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Data Extraction from Multiple Sources: <br/>
-<img src="https://i.imgur.com/XN7uk4l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<img src="https://i.imgur.com/rtN5Pf4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Subset satellite image to AOI: <br/>
+<img src="https://i.imgur.com/gkdijQE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Extracting Multidimentional Data (NetCDF) using Xarray:  <br/>
-<img src="https://i.imgur.com/WpAhrgB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create >9000 objects using FLS segmentation :  <br/>
+<img src="https://i.imgur.com/dNGI08J.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Data Cleaning in Excel and Pandas (Daily Lake Level data from 1965-2023): <br/>
-<img src="https://i.imgur.com/AMuuDTK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<img src="https://i.imgur.com/y2XzSar.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create training datsets for 6 land cover classes: <br/>
+<img src="https://i.imgur.com/SZmHIAI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-EDA and Time-Series Analysis:  <br/>
-<img src="https://i.imgur.com/jALJify.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Data preprocessing and training RF Model:  <br/>
+<img src="https://i.imgur.com/iOuz6aN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<img src="https://i.imgur.com/hVWrwhx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nuVtbVd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+<img src="https://i.imgur.com/1REkire.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-Examining Climate Data Quality:  <br/>
-<img src="https://i.imgur.com/BJrd35W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Correlation Matrix of Explanatory Variables and Dependent Variable (Lake Level):  <br/>
-<img src="https://i.imgur.com/H7DUIcM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /> 
+Run the trained model to classify satellite image:  <br/>
+<img src="https://i.imgur.com/ajdWouX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-BoxPlot to Analyze Monthly Variation in Lake Level:  <br/>
-<img src="https://i.imgur.com/pFUgm3w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Accuracy assessement (Error Matrix) using 60 randomly stratified selected points:  <br/>
+<img src="https://i.imgur.com/RWBmJck.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Using ANOVA to Evaluate Relationship between ENSO Phases (Categorical Variable) with Lake Levels:  <br/>
-<img src="https://i.imgur.com/3i8wqiE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Accuracy assessment report (Overall Accuracy=85%):  <br/>
+<img src="https://i.imgur.com/9lSdfcb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<img src="https://i.imgur.com/WxHPQxo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
-<br />
-<br />
-Running Multiple Linear Regression:  <br/>
-<img src="https://i.imgur.com/IQ2wNrq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<img src="https://i.imgur.com/29f4wrv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bd5ntsj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Final Model (Post-Calibration and Removal of Insignificant Variables):  <br/>
-<img src="https://i.imgur.com/E4BKhAg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Bar Chart shows change in land cover in last 25 years:  <br/>
+<img src="https://i.imgur.com/Nvnbuyh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-We predicted a lower than mean lake level for the year 2025, and that held true as of December, 2025.
 </p>
 
 <!--
