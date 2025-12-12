@@ -43,14 +43,14 @@ Run the trained model to classify satellite image:  <br/>
 <img src="https://i.imgur.com/ajdWouX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Accuracy assessement (Error Matrix) using 60 randomly stratified selected points:  <br/>
+Accuracy assessement (Error Matrix) using 60 randomly stratified data points:  <br/>
 <img src="https://i.imgur.com/RWBmJck.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Accuracy assessment report (Overall Accuracy=85%):  <br/>
-<img src="https://i.imgur.com/9lSdfcb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9lSdfcb.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
-<img src="https://i.imgur.com/bd5ntsj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bd5ntsj.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Bar Chart shows change in land cover in last 25 years:  <br/>
